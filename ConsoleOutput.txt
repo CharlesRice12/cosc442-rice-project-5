@@ -1,0 +1,34 @@
+Test Generation Using the W-method. V2.0. August 1, 2013
+
+Enter filename: Untitled 1
+FSM input from:  Untitled 1
+States: 5
+Edges 10
+Input alphabet:
+a
+b
+
+Output alphabet:
+0
+1
+
+From 	 Input/Output 	 To
+1	 a/1		 1
+1	 b/1		 4
+2	 b/1		 5
+2	 a/0		 1
+3	 a/0		 5
+3	 b/1		 1
+4	 b/1		 4
+4	 a/1		 3
+5	 a/1		 2
+5	 b/1		 5
+
+Transition cover set (P). 11 entries.
+Empty a b ba baa baaa baaaa baaab baab bab bb 
+
+W Set. 3 entries.
+a aa baa 
+
+Number of Test Cases :23
+Test cases: [a, aa, aaa, abaa, ba, baa, baaa, baaaa, baaaaa, baaaaaa, baaaabaa, baaaba, baaabaa, baaabbaa, baaba, baabaa, baabbaa, baba, babaa, babbaa, bba, bbaa, bbbaa]
